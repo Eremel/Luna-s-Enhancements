@@ -13,7 +13,9 @@ AltTexture{ -- Luna Seals
     path = 'lunas.png', -- path of sprites
     loc_txt = { -- localized name (this isn't used anywhere currently)
         name = 'Luna\'s Seals'
-    }
+    },
+    keys = {'Gold','Blue','Purple'},
+    original_sheet = true
 }
 AltTexture{ -- Luna Decks
     key = 'deck', -- alt_tex key
@@ -21,7 +23,9 @@ AltTexture{ -- Luna Decks
     path = 'lunas.png', -- path of sprites
     loc_txt = { -- localized name (this isn't used anywhere currently)
         name = 'Luna\'s Decks'
-    }
+    },
+    keys = {'b_blue','b_yellow','b_green','b_black'},
+    original_sheet = true
 }
 AltTexture({ -- Lunas Enhancements
     key = 'enhancements', -- alt_tex key
